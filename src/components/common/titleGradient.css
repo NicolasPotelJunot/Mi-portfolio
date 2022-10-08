@@ -1,0 +1,19 @@
+.text-gradient {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    background: #fff;
+    mix-blend-mode: multiply;
+    position: relative;
+}
+
+.text-gradient:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: var(--gradient);
+    mix-blend-mode: lighten;  /* atento a esta linea */
+    position: absolute;
+    top: 0;
+    left: 0;
+}

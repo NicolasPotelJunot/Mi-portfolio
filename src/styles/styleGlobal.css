@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-light: #F5F2ED;
+    --color-violet: #A12BFF;
+    --color-ligth-blue: #2EC3E3;
+    --text-primary: #666666;
+    --font-family-regular: 'Ubuntu', 'Arial Narrow', Arial, sans-serif;
+    --font-family-bold: 'Ubuntu', 'Arial Narrow', Arial, sans-serif;
+    --gradient: linear-gradient(133deg, rgba(46,195,227,1) 0%, rgba(161,43,255,1) 100%);
+  }
+
+html , body{
+    font-family: var(--font-family-regular);
+}
+
+.bg-light{
+    background-color: var(--color-light);
+}
+
+.bg-gradient{
+  background: rgb(46,195,227);
+  background: var(--gradient);
+}
+
+.text-primary{
+  color: var(--text-primary);
+}
+
+.font-regular{
+  font-family: var(--font-family-regular);
+}
+
+.scale-y{
+  transform: scale(-15);
+}
+
+.hover-1 {
+  background-image: var(--gradient);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: .4s;
+}
+.hover-1:hover {
+  background-size: 100% 100%;
+  color: white;
+}
+
+.text-rotate{
+  writing-mode: vertical-rl;
+}
