@@ -35,32 +35,47 @@ export const Skills = () => {
             <p className="text-sm">click me</p>
           </button>
           <li className="i0 bg-gradient rounded-full">
-            <div className="d0">A</div>
+            <div className="d0">
+              <img className="h-2/4" src="skills/adobe.svg" />
+            </div>
           </li>
           <li className="i1 bg-gradient rounded-full">
-            <div className="d1">A</div>
+            <div className="d1">
+              <img className="h-2/4" src="skills/react.svg" />
+            </div>
           </li>
           <li className="i2 bg-gradient rounded-full">
-            <div className="d2">A</div>
+            <div className="d2">
+              <img className="h-2/4" src="skills/basics.svg" />
+            </div>
           </li>
           <li className="i3 bg-gradient rounded-full">
-            <div className="d3">A</div>
+            <div className="d3">
+              <img className="h-2/4" src="skills/boostrap.svg" />
+            </div>
           </li>
           <li className="i4 bg-gradient rounded-full">
-            <div className="d4">A</div>
+            <div className="d4">
+              <img className="h-2/4" src="skills/materialUi.svg" />
+            </div>
           </li>
           <li className="i5 bg-gradient rounded-full">
-            <div className="d5">A</div>
+            <div className="d5">
+              <img className="h-2/4" src="skills/tailwind.svg" />
+            </div>
           </li>
           <li className="i6 bg-gradient rounded-full">
-            <div className="d6">A</div>
+            <div className="d6">
+              <img className="h-2/4" src="skills/node.svg" />
+            </div>
           </li>
           <li className="i7 bg-gradient rounded-full">
-            <div className="d7">A</div>
+            <div className="d7">
+              <img className="h-2/4" src="skills/corel.svg" />
+            </div>
           </li>
         </ul>
       </div>
-      
     </section>
   );
 };
