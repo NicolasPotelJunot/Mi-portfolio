@@ -15,7 +15,6 @@ export const Skills = () => {
 
   return (
     <section className="pt-10 lg:pt-56 grid lg:grid-cols-2 w-full justify-center items-center">
-
       <div className="flex items-center justify-center lg:justify-end ">
         <TitleGradient
           title={"TECNOLOGIAS"}
@@ -27,7 +26,7 @@ export const Skills = () => {
       </div>
 
       <div className="flex justify-center lg:justify-start lg:ml-32 ml-0">
-        <ul className={`${isActive} menu`}>
+        <ul className={`${isActive} menu bg-red-500`}>
           <button
             onClick={handleButtonSkills}
             className="toggle bg-gradient rounded-full flex flex-col"
@@ -61,7 +60,7 @@ export const Skills = () => {
           </li>
         </ul>
       </div>
-      
+
     </section>
   );
 };
