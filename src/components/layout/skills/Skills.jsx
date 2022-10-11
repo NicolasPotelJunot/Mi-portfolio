@@ -26,7 +26,7 @@ export const Skills = () => {
       </div>
 
       <div className="flex justify-center lg:justify-start lg:ml-32 ml-0">
-        <ul className={`${isActive} menu bg-red-500`}>
+        <ul className={`${isActive} menu`}>
           <button
             onClick={handleButtonSkills}
             className="toggle bg-gradient rounded-full flex flex-col"
@@ -60,7 +60,7 @@ export const Skills = () => {
           </li>
         </ul>
       </div>
-
+      
     </section>
   );
 };
