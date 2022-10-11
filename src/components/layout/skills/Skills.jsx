@@ -14,7 +14,7 @@ export const Skills = () => {
   };
 
   return (
-    <section className="py-10 lg:py-56 grid lg:grid-cols-2 w-full justify-center items-center">
+    <section className="pt-10 lg:pt-56 grid lg:grid-cols-2 w-full justify-center items-center">
 
       <div className="flex items-center justify-center lg:justify-end ">
         <TitleGradient

@@ -28,7 +28,7 @@ export const Project = ({ title, text, srcImage, srcGit }) => {
             />
           </a>
 
-          <a className="h-8 lg:h-12 cursor-pointer ml-5" href={srcGit}>
+          <a className="h-8 lg:h-12 cursor-pointer ml-5" href={srcGit} target="_blank" >
             <img src="githubLogo.svg" className="h-full" />
           </a>
         </div>

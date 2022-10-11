@@ -10,7 +10,7 @@ import { TitleGradient } from "../../common/TitleGradient";
 
 export const Contact = () => {
   return (
-    <section className=" xl:w-3/4 mx-auto mt-20 lg:mt-10 lg:p-16">
+    <section id="contact" className=" xl:w-3/4 mx-auto pt-20 lg:pt-10 lg:px-16">
 
       <TitleGradient
         title={"Contactame"}
