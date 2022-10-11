@@ -10,7 +10,7 @@ import { TitleGradient } from "../../common/TitleGradient";
 
 export const Contact = () => {
   return (
-    <section id="contact" className=" xl:w-3/4 mx-auto pt-20 lg:pt-10 lg:px-16">
+    <section id="contact" className=" xl:w-3/4 mx-auto pt-20 lg:pt-10 lg:px-16 lg:pb-16">
 
       <TitleGradient
         title={"Contactame"}
@@ -41,7 +41,7 @@ export const Contact = () => {
               >
                 <FontAwesomeIcon
                   icon={faWhatsapp}
-                  className="text-xl ml-2 text-white"
+                  className="text-xl ml-2 text-white ancor"
                 />
               </a>
             </div>
@@ -57,7 +57,7 @@ export const Contact = () => {
               >
                 <FontAwesomeIcon
                   icon={faGithub}
-                  className="text-3xl text-white"
+                  className="text-3xl text-white ancor"
                 />
               </a>
               <a
@@ -67,7 +67,7 @@ export const Contact = () => {
               >
                 <FontAwesomeIcon
                   icon={faLinkedin}
-                  className="text-3xl text-white"
+                  className="text-3xl text-white ancor"
                 />
               </a>
             </div>

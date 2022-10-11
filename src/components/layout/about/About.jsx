@@ -28,7 +28,7 @@ export const About = () => {
         </p>
 
         <div className=" flex justify-end lg:justify-start mt-10 pr-10">
-          <a className="text-center font-bold cursor-pointer px-3 py-2 bg-gradient w-28 lg:text-xl lg:w-36 text-white">
+          <a target={"_blank"} href="https://drive.google.com/file/d/1bGF597lyiVBlZcwXWujfbVGA1RmV5Rc1/view" className="ancor text-center font-bold cursor-pointer px-3 py-2 bg-gradient w-28 lg:text-xl lg:w-36 text-white">
             Mira mi CV
           </a>
         </div>

@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import "../../../styles/stylesMenuButton.css";
 import { useSelector, useDispatch } from "react-redux";
 import { open } from "../../../stateManagement/slicer/menuSlicer";
+import "./navBarCommon.css";
 
 export const NavBarCommon = () => {
   const dispatch = useDispatch();

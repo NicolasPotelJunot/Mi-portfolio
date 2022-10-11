@@ -4,7 +4,7 @@ export const ProjectsView = () => {
   return (
     <div id="projects" className="pt-10 lg:pt-36">
       <Project
-        title={"NikAgenda"}
+        title={"NIK-AGENDA"}
         text={
           "App para que puedas organizarte.  Lista de tareas, calculadora, cronómetro y podes ver el clima de tu ciudad!!"
         }
@@ -12,14 +12,14 @@ export const ProjectsView = () => {
         srcGit={"https://github.com/NicolasPotelJunot/TaskAndWeatherApp.git"}
         />
       <Project
-        title={"Dinosaurios Argentinos"}
+        title={"DINOSAURIOS ARGENTINOS"}
         text={
         "App con el registro de todos los dinosaurios registrados en mi país. Dinosaurios y desarrollo web mis 2 grandes pasiones en un solo sitio web. ❤"
       }
         srcImage={"/projects/mockup.jpg"}
         />
       <Project
-        title={"Southchaing"}
+        title={"SOUTHCHAING"}
         text={
           "Sitio web para un empresa de domótica en Córdoba, Argentina. Mi primer proyecto de desarrollo web con un cliente real"
         }

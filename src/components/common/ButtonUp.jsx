@@ -36,7 +36,7 @@ export const ButtonUp = () => {
         <div className="w-full flex justify-center fixed -bottom-1 z-30">
           <button
             onClick={handleButtonUp}
-            className="w-14 xl:w-20 font-bold text-white bg-gradient xl:h-12 pt-1 xl:py-1 rounded"
+            className="w-14 xl:w-20 font-bold text-white bg-gradient xl:h-12 pt-1 xl:py-1 rounded ancor"
           >
             <FontAwesomeIcon icon={faAngleUp} className="text-3xl xl:text-5xl font-bold" />
           </button>

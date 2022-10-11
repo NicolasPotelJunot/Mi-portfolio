@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-    --color-light: #F5F2ED;
+    --color-light: #ece6dc;
     --color-violet: #A12BFF;
     --color-ligth-blue: #2EC3E3;
     --text-primary: #666666;
@@ -37,17 +37,13 @@ html , body{
   transform: scale(-15);
 }
 
-.hover-1 {
-  background-image: var(--gradient);
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: .4s;
-}
-.hover-1:hover {
-  background-size: 100% 100%;
-  color: white;
-}
-
 .text-rotate{
   writing-mode: vertical-rl;
+}
+
+.ancor:hover{
+  transform: scale(1.2);
+  position: relative;
+  transition: all;
+  transition-duration: 400ms;
 }
