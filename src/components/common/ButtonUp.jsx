@@ -33,10 +33,10 @@ export const ButtonUp = () => {
   return (
     <>
       {isVisible && (
-        <div className="w-full flex justify-center fixed bottom-0">
+        <div className="w-full flex justify-center fixed -bottom-1 z-30">
           <button
             onClick={handleButtonUp}
-            className="w-14 xl:w-28 font-bold text-white bg-gradient xl:h-14 pt-1 xl:py-2"
+            className="w-14 xl:w-20 font-bold text-white bg-gradient xl:h-12 pt-1 xl:py-1 rounded"
           >
             <FontAwesomeIcon icon={faAngleUp} className="text-3xl xl:text-5xl font-bold" />
           </button>
