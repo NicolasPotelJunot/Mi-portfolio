@@ -30,9 +30,10 @@ export const Skills = () => {
         <ul className={`${isActive} menu`}>
           <button
             onClick={handleButtonSkills}
-            className="toggle bg-gradient rounded-full"
+            className="toggle bg-gradient rounded-full flex flex-col"
           >
             Skills
+            <p className="text-sm">click me</p>
           </button>
           <li className="i0 bg-gradient rounded-full">
             <div className="d0">A</div>

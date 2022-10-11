@@ -10,14 +10,21 @@ import { TitleGradient } from "../../common/TitleGradient";
 
 export const Contact = () => {
   return (
-    <section className="w-3/4 mx-auto mt-10 p-16">
-      <TitleGradient title={"Contactame"} style={"lg:text-7xl"} />
-      <div className="py-36 grid md:grid-cols-2 mt-16 gap-48 bg-contact">
+    <section className=" xl:w-3/4 mx-auto mt-20 lg:mt-10 lg:p-16">
+
+      <TitleGradient
+        title={"Contactame"}
+        style={"block text-4xl lg:text-7xl text-center mx-auto mb-5"}
+      />
+
+      <img src="waves.svg" className="-mb-1 md:hidden"/>
+
+      <div className="lg:py-36 pb-10 grid md:grid-cols-2 lg:mt-16 lg:gap-48 bg-contact">
         <div className="flex justify-center w-full">
           <Form />
         </div>
 
-        <div className="flex flex-col text-white ">
+        <div className="grid text-white w-3/4 lg:w-full mx-auto ">
           <div className=" mt-10">
             <h3 className="text-lg">MI EMAIL</h3>
             <p>nicolaspoteljunot@gmail.com</p>
@@ -67,6 +74,7 @@ export const Contact = () => {
           </div>
         </div>
       </div>
+      
     </section>
   );
 };

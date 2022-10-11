@@ -1,0 +1,5 @@
+.text-area{
+    background-color: rgba(121, 121, 121, 0.137);
+    border-bottom: 1px solid rgb(68, 68, 68);
+}
+.text-area::placeholder { color: rgba(24, 25, 26, 0.63); }

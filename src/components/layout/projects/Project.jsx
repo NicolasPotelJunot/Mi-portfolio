@@ -13,7 +13,7 @@ export const Project = ({ title, text, srcImage, srcGit }) => {
             style="text-4xl md:text-5xl xl:text-7xl"
           />
         </div>
-        <p className="mt-10 text-primary mb-5 md:text-xl lg:text-2xl xl:text-3xl">
+        <p className="mt-10 text-primary mb-5 md:text-xl lg:text-2xl">
           {text}
         </p>
       </div>

@@ -9,23 +9,24 @@ export const About = () => {
         <TitleGradient title={"About"} style={"font-bold text-5xl lg:text-7xl xl:text-8xl "} />
       </div>
 
-      <div className="px-5 my-10 lg:pt-20 lg:my-0 col-span-3 col-start-2">
-        <p className="text-primary mb-5 md:text-xl md:px-10">
+      <div className="px-5 my-10 lg:pt-20 lg:my-0 col-span-3 col-start-2 ">
+        
+        <p className="text-primary mb-5 md:text-xl">
           Desarrollador web front-end autodidacta y diseñador gráfico
           publicitario radicado en Argentina.
         </p>
 
-        <p className="text-primary mb-5 md:text-xl md:px-10">
-          Soy un persona comprometida y proactiva en todo lo que realizo tanto
+        <p className="text-primary mb-5 md:text-xl">
+          Soy una persona comprometida y proactiva en todo lo que realizo tanto
           en lo personal como profesional.
         </p>
 
-        <p className="text-primary md:text-xl md:px-10">
+        <p className="text-primary md:text-xl">
           Mi creatividad radica en la tecnología, tratanto de aprender día a día
-          nuevas herramientas y experimentar nuevos
+          nuevas herramientas y experimentar nuevos desafíos.
         </p>
 
-        <div className=" flex justify-end lg:justify-start lg:pl-20 mt-10 pr-10">
+        <div className=" flex justify-end lg:justify-start mt-10 pr-10">
           <a className="text-center font-bold cursor-pointer px-3 py-2 bg-gradient w-28 lg:text-xl lg:w-36 text-white">
             Mira mi CV
           </a>
