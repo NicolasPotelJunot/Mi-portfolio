@@ -6,7 +6,7 @@ export const About = () => {
     <section className="flex flex-col md:grid md:grid-cols-6 py-32 lg:py-10">
       <div className="md:hidden mx-auto flex items-center">
         <img src="/isologo-nicolasPotelJunot.svg" className="h-5" />
-        <TitleGradient title={"About"} style={"font-bold "} />
+        <TitleGradient title={"About"} style={"font-bold text-5xl lg:text-7xl xl:text-8xl "} />
       </div>
 
       <div className="px-5 my-10 lg:pt-20 lg:my-0 col-span-3 col-start-2">

@@ -48,13 +48,13 @@ export const NavBarCommon = () => {
       </button>     
 
       <ul className={` fixed right-0 grid h-screen md:static md:h-full md:flex w-full md:justify-end ease-in transition-all duration-700 bg-nav-responsive ${modal.open}`}>
-          <a className="hover-1 cursor-pointer font-bold flex justify-center items-center text-white md:text-slate-500 text-2xl mx-10 lg:w-36 xl:w-44">
+          <a className="hover-1 cursor-pointer font-bold flex justify-center items-center text-primary md:text-slate-500 text-2xl mx-10 lg:w-36 xl:w-44">
             About
           </a>
-          <a className="hover-1 cursor-pointer font-bold flex justify-center items-center text-white md:text-slate-500 text-2xl mx-10 lg:w-36 xl:w-44">
+          <a className="hover-1 cursor-pointer font-bold flex justify-center items-center text-primary md:text-slate-500 text-2xl mx-10 lg:w-36 xl:w-44">
             Proyectos
           </a>
-          <a className="hover-1 cursor-pointer font-bold flex justify-center items-center text-white md:text-slate-500 text-2xl mx-10 lg:w-36 xl:w-44">
+          <a className="hover-1 cursor-pointer font-bold flex justify-center items-center text-primary md:text-slate-500 text-2xl mx-10 lg:w-36 xl:w-44">
             Contacto
           </a>
       </ul>        

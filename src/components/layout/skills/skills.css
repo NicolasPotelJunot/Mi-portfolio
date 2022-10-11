@@ -16,8 +16,8 @@
 }
 .menu .toggle{
      position: absolute;
-     width: 60px;
-     height: 60px;
+     width: 150px;
+     height: 150px;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -27,10 +27,6 @@
      color: white;
 }
 
-.rotate{
-    transform: rotate(0deg) translateX(110px);
-    transform-origin: 140px;
-}
 .menu.active li{
     color: white;
 }
