@@ -10,7 +10,7 @@ export const Project = ({ title, text, srcImage, srcGit }) => {
           <img className="h-6 mr-5" src="isologo-nicolasPotelJunot.svg" />
           <TitleGradient
             title={title}
-            style="text-4xl md:text-5xl"
+            style="text-4xl md:text-5xl font-bold"
           />
         </div>
         <p className="mt-10 text-primary mb-5 md:text-xl lg:text-2xl">
