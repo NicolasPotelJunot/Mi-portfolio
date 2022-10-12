@@ -4,7 +4,7 @@ import { RedesAbout } from "./RedesAbout";
 export const About = () => {
 
   return (
-    <section id="about" className="flex flex-col md:grid md:grid-cols-6 pt-20">
+    <section id="about" className="flex flex-col md:grid md:grid-cols-6">
       <div className="md:hidden mx-auto flex items-center">
         <img src="/isologo-nicolasPotelJunot.svg" className="h-5" />
         <TitleGradient title={"About"} style={"font-bold text-5xl lg:text-7xl xl:text-8xl "} />
