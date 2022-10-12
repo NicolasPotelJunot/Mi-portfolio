@@ -15,6 +15,7 @@ export const ProjectsView = () => {
           }
           srcImage={"/projects/mockup.jpg"}
           srcGit={"https://github.com/NicolasPotelJunot/TaskAndWeatherApp.git"}
+          srcWebPage={"https://southchain.vercel.app/"}
         />
       </div>
       <div data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
@@ -24,6 +25,8 @@ export const ProjectsView = () => {
             "App con el registro de todos los dinosaurios registrados en mi país. Dinosaurios y desarrollo web mis 2 grandes pasiones en un solo sitio web. ❤"
           }
           srcImage={"/projects/mockup.jpg"}
+          srcGit={"https://github.com/NicolasPotelJunot/TaskAndWeatherApp.git"}
+          srcWebPage={"https://southchain.vercel.app/"}
         />
       </div>
       <div data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
@@ -34,6 +37,17 @@ export const ProjectsView = () => {
           }
           srcImage={"/projects/mockup.jpg"}
           srcGit={"https://github.com/NicolasPotelJunot/SouthChain.git"}
+          srcWebPage={"https://southchain.vercel.app/"}
+        />
+      </div>
+      <div data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+        <Project
+          title={"PORTFOLIO"}
+          text={
+            "Mi Landingpage 🤩 hecha principalmente con React - Tailwind - Material UI"
+          }
+          srcImage={"/projects/mockup.jpg"}
+          srcGit={"https://github.com/NicolasPotelJunot/Mi-portfolio.git"}
         />
       </div>
     </div>
