@@ -3,45 +3,59 @@
 @tailwind utilities;
 
 :root {
-    --color-light: #ece4d5;
-    --color-violet: #A12BFF;
-    --color-ligth-blue: #2EC3E3;
-    --text-primary: #666666;
-    --font-family-regular: 'Ubuntu', 'Arial Narrow', Arial, sans-serif;
-    --font-family-bold: 'Ubuntu', 'Arial Narrow', Arial, sans-serif;
-    --gradient: linear-gradient(133deg, rgba(46,195,227,1) 0%, rgba(161,43,255,1) 100%);
-  }
-
-html , body{
-    font-family: var(--font-family-regular);
+  --color-light: #f5f2ed;
+  --color-violet: #a12bff;
+  --color-ligth-blue: #2ec3e3;
+  --text-primary: #666666;
+  --font-family-regular: "Ubuntu", "Arial Narrow", Arial, sans-serif;
+  --font-family-bold: "Ubuntu", "Arial Narrow", Arial, sans-serif;
+  --gradient: linear-gradient(
+    133deg,
+    rgba(46, 195, 227, 1) 0%,
+    rgba(161, 43, 255, 1) 100%
+  );
 }
 
-.bg-light{
-    background-color: var(--color-light);
+html,
+body {
+  font-family: var(--font-family-regular);
+  cursor: url("./cursor-auto.svg") 8 8, auto;
 }
 
-.bg-gradient{
-  background: rgb(46,195,227);
+.bg-light {
+  background-color: var(--color-light);
+}
+
+.bg-dark {
+  background: var(--text-primary);
+}
+
+.bg-gradient {
+  background: rgb(46, 195, 227);
   background: var(--gradient);
 }
 
-.text-primary{
+.bg-transparent {
+  background: rgba(255, 255, 255, 0.349);
+}
+
+.text-primary {
   color: var(--text-primary);
 }
 
-.font-regular{
+.font-regular {
   font-family: var(--font-family-regular);
 }
 
-.scale-y{
+.scale-y {
   transform: scale(-15);
 }
 
-.text-rotate{
+.text-rotate {
   writing-mode: vertical-rl;
 }
 
-.ancor:hover{
+.ancor:hover {
   transform: scale(1.2);
   position: relative;
   transition: all;
@@ -49,23 +63,23 @@ html , body{
 }
 
 /* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #2ec3e3 #ece3d3;
-  }
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #2ec3e3 var(--color-light);
+}
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 20px;
-  }
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 20px;
+}
 
-  *::-webkit-scrollbar-track {
-    background: #ece3d3;
-  }
+*::-webkit-scrollbar-track {
+  background: var(--color-light);
+}
 
-  *::-webkit-scrollbar-thumb {
-    background-color: #2ec3e3;
-    border-radius: 10px;
-    border: 3px solid #ece3d3;
-  }
+*::-webkit-scrollbar-thumb {
+  background-color: #2ec3e3;
+  border-radius: 10px;
+  border: 3px solid var(--color-light);
+}
