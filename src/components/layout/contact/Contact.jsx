@@ -19,12 +19,14 @@ export const Contact = () => {
       <section className="lg:py-36 py-14 flex flex-col lg:flex-row lg:mt-16 bg-contact justify-center items-center shadow lg:shadow-none">
         <Form
           clases={
-            "bg-transparent lg:w-2/5 xl:w-1/3 flex flex-col py-10 px-8 lg:py-5 lg:pl-3 lg:pr-10 justify-center lg:rounded-xl"
+            "bg-transparent lg:w-2/5 xl:w-1/3 flex flex-col py-10 px-8 lg:py-5 lg:pl-3 lg:pr-10 justify-center lg:rounded-xl shadow-xl"
           }
         />
 
         <Card
-          clases={"text-white bg-dark lg:w-1/3 lg:w-1/4 lg:rounded-xl relative lg:right-6 p-7 shadow-xl "}
+          clases={
+            "text-white bg-gradient px-4 py-6 md:p-4 relative lg:w-1/3 lg:rounded-xl lg:right-6 shadow-slate-500 shadow-lg "
+          }
         />
       </section>
     </section>

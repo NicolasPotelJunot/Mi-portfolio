@@ -49,7 +49,7 @@ export const NavBarCommon = () => {
   return (
     <nav
       className="fixed
-     flex bg-light justify-between h-16 pl-2 md:pl-10 w-full z-30"
+     flex bg-light justify-between h-14 pl-2 w-full z-30 pb-2 md:pl-10 md:pr-5 lg:pr-0"
     >
       <button onClick={handleButtonUp} className="">
         <img
@@ -77,7 +77,7 @@ export const NavBarCommon = () => {
       </button>
 
       <ul
-        className={` fixed right-0 grid h-screen md:static md:h-full md:flex w-full md:justify-end ease-in transition-all duration-700 bg-nav-responsive ${modal.open}`}
+        className={`fixed right-0 flex flex-col justify-center h-screen w-full md:flex-row md:justify-end md:static md:h-full  ease-in transition-all duration-700 bg-nav-responsive ${modal.open}`}
       >
         <Link
           onClick={handleButton}
@@ -86,7 +86,7 @@ export const NavBarCommon = () => {
           smooth={true}
           offset={-150}
           duration={500}
-          className="hover-1 cursor-pointer font-bold flex justify-center items-center text-white md:text-slate-500 text-2xl md:mx-10 lg:w-36 xl:w-44"
+          className="w-full py-10 hover-1 cursor-pointer font-bold flex justify-center items-center text-white md:text-slate-500 text-2xl md:py-0 md:mx-10 lg:w-36 xl:w-44"
         >
           About
         </Link>
@@ -97,7 +97,7 @@ export const NavBarCommon = () => {
           smooth={true}
           offset={50}
           duration={500}
-          className="hover-1 cursor-pointer font-bold flex justify-center items-center text-white md:text-slate-500 text-2xl md:mx-10 lg:w-36 xl:w-44"
+          className="w-full py-10 hover-1 cursor-pointer font-bold flex justify-center items-center text-white md:text-slate-500 text-2xl md:py-0 md:mx-10 lg:w-36 xl:w-44"
         >
           Proyectos
         </Link>
@@ -108,7 +108,7 @@ export const NavBarCommon = () => {
           smooth={true}
           offset={-20}
           duration={500}
-          className="hover-1 cursor-pointer font-bold flex justify-center items-center text-white md:text-slate-500 text-2xl md:ml-10 lg:w-36 xl:w-44"
+          className="w-full py-10 hover-1 cursor-pointer font-bold flex justify-center items-center text-white md:text-slate-500 text-2xl md:py-0 md:ml-10 lg:w-36 xl:w-44"
         >
           Contacto
         </Link>

@@ -7,7 +7,7 @@ AOS.init();
 export const ProjectsView = () => {
   return (
     <div id="projects" className="w-full overflow-hidden">
-      <div data-aos="flip-left" data-aos-duration="1000" data-aos-delay="500">
+      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
         <Project
           title={"NIK-AGENDA"}
           text={
@@ -18,7 +18,7 @@ export const ProjectsView = () => {
           srcWebPage={"https://southchain.vercel.app/"}
         />
       </div>
-      <div data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500">
+      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
         <Project
           title={"DINOSAURIOS ARGENTINOS"}
           text={
@@ -29,7 +29,7 @@ export const ProjectsView = () => {
           srcWebPage={"https://southchain.vercel.app/"}
         />
       </div>
-      <div data-aos="flip-left" data-aos-duration="1000" data-aos-delay="500">
+      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
         <Project
           title={"SOUTHCHAING"}
           text={
@@ -40,7 +40,7 @@ export const ProjectsView = () => {
           srcWebPage={"https://southchain.vercel.app/"}
         />
       </div>
-      <div data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500">
+      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
         <Project
           title={"PORTFOLIO"}
           text={

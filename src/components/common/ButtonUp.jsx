@@ -33,12 +33,15 @@ export const ButtonUp = () => {
   return (
     <>
       {isVisible && (
-        <div className="w-full flex justify-center fixed -bottom-1 z-30">
+        <div className="w-full flex justify-center fixed -bottom-1 z-20">
           <button
             onClick={handleButtonUp}
             className="w-14 xl:w-20 font-bold text-white bg-gradient xl:h-12 pt-1 xl:py-1 cursor-pointer-variant rounded ancor"
           >
-            <FontAwesomeIcon icon={faAngleUp} className="text-3xl xl:text-5xl font-bold" />
+            <FontAwesomeIcon
+              icon={faAngleUp}
+              className="text-3xl xl:text-5xl font-bold"
+            />
           </button>
         </div>
       )}

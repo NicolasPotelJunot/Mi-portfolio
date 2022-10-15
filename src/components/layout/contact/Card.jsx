@@ -35,7 +35,7 @@ export const Card = ({clases}) => {
 
         <div className="flex">
           <a
-            className="mr-5 flex items-center cursor-pointer w-8 justify-center"
+            className="mr-2 flex items-center cursor-pointer w-8 justify-center"
             href="https://github.com/NicolasPotelJunot"
             target="_blank"
           >
@@ -45,7 +45,7 @@ export const Card = ({clases}) => {
             />
           </a>
           <a
-            className="mr-5 flex items-center cursor-pointer w-8 justify-center"
+            className="mr-2 flex items-center cursor-pointer w-8 justify-center"
             href="https://www.linkedin.com/in/nicolas-potel-junot-23a747165/"
             target="_blank"
           >

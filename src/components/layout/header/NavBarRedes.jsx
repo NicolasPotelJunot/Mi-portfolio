@@ -6,7 +6,7 @@ export const NavBarRedes = () => {
         href="https://github.com/NicolasPotelJunot"
         target="_blank"
       >
-        <img className="h-10" src="/githubLogo.svg" />
+        <img className="h-10" src="/githubLogoGradient.svg" />
       </a>
       <a
         className="mt-2 p-3 flex items-center cursor-pointer ancor"
