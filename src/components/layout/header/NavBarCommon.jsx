@@ -54,7 +54,7 @@ export const NavBarCommon = () => {
       <button onClick={handleButtonUp} className="">
         <img
           className="h-14 sm:h-full py-3 md:py-2 md:flex md:items-center"
-          src="/logo-nicolasPotelJunot.svg"
+          src="logo-nicolasPotelJunot.svg"
         />
       </button>
 
