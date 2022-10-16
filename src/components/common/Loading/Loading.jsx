@@ -14,7 +14,7 @@ export const Loading = () => {
     <div
       className={`${display} h-screen w-screen bg-loading z-30 fixed flex justify-center items-center overflow-hidden`}
     >
-      <img src="isologo-nicolasPotelJunot.svg" className="img-loading" />
+      <img src="/isologo-nicolasPotelJunot.svg" className="img-loading" />
       <p className="absolute text-white text-2xl md:text-5xl font-black">
         BIENVENIDO
       </p>
