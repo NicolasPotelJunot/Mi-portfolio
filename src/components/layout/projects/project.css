@@ -1,0 +1,47 @@
+.bg-card-project {
+  background: var(--gradient);
+}
+
+@media (max-width: 750px) {
+  .bg-card-project {
+    background: transparent;
+    color: var(--text-primary);
+  }
+}
+
+.title-projects {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  background: #ffffff;
+  mix-blend-mode: multiply;
+  position: relative;
+  background: -webkit-linear-gradient(
+    133deg,
+    rgba(161, 43, 255, 1) 0%,
+    rgba(46, 195, 227, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 765px) {
+  .title-projects {
+    display: block;
+    color: var(--text-primary);
+    background: transparent;
+    mix-blend-mode: normal;
+    position: static;
+    -webkit-background-clip: inherit;
+    -webkit-text-fill-color: inherit;
+  }
+}
+
+.links-projects {
+  background: var(--gradient);
+}
+
+@media (min-width: 765px) {
+  .links-projects {
+    background: transparent;
+  }
+}

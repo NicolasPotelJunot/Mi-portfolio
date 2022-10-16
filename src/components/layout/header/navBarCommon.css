@@ -1,19 +1,30 @@
 .hover-1 {
-    background-image: var(--gradient);
-    background-size: 0 100%;
-    background-repeat: no-repeat;
-    transition: .4s;
-  }
+  background-image: var(--gradient);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+.hover-1:hover {
+  background-size: 100% 100%;
+  color: white;
+}
+
+@media (min-width: 700px) {
   .hover-1:hover {
-    background-size: 100% 100%;
+    color: var(--text-primary);
+  }
+}
+
+@media (max-width: 1103px) {
+  .hover-1:hover {
+    background-color: transparent;
+    background-image: none;
+    background-size: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hover-1:hover {
     color: white;
   }
-
-  @media (max-width: 1023px) {
-    .hover-1:hover{
-        background-color: transparent;
-        background-image: none;
-        background-size: auto;
-    }
-      
-  }
+}

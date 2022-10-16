@@ -1,0 +1,31 @@
+.bg-loading {
+  background: rgb(245, 245, 245);
+  animation: bg 2s ease-in;
+}
+
+.img-loading {
+  width: 70%;
+  animation: rotate 2s ease-in;
+}
+
+@keyframes bg {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rotate {
+  from {
+    opacity: 1;
+  }
+  to {
+    transform: rotate(540deg);
+    opacity: 0;
+  }
+}

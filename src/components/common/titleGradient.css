@@ -1,12 +1,14 @@
-
 .text-gradient {
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    background: #ffffff;
-    mix-blend-mode: multiply;
-    position: relative;
-    background: -webkit-linear-gradient(133deg,rgba(161,43,255,1)  0%, rgba(46,195,227,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  background: #ffffff;
+  mix-blend-mode: multiply;
+  position: relative;
+  background: -webkit-linear-gradient(
+    133deg,
+    rgba(161, 43, 255, 1) 0%,
+    rgba(46, 195, 227, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

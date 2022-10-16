@@ -9,6 +9,7 @@ import { Skills } from "../components/layout/skills/Skills";
 import "../styles/styleGlobal.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Loading } from "../components/common/loading/Loading";
 
 export const App = () => {
   useEffect(() => {
@@ -16,12 +17,15 @@ export const App = () => {
   }, []);
 
   return (
-    <div className="bg-light">
+    <main className="bg-light">
+      <Loading />
       <NavBarCommon />
       <NavBarRedes />
       <ButtonUp />
 
-      <Banner />
+      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+        <Banner />
+      </div>
 
       <div data-aos="fade-right" data-aos-duration="3000" data-aos-delay="300">
         <About />
@@ -41,6 +45,6 @@ export const App = () => {
       <div data-aos="zoom-in" data-aos-duration="500">
         <Contact />
       </div>
-    </div>
+    </main>
   );
 };

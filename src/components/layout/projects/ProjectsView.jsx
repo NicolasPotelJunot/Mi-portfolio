@@ -1,6 +1,7 @@
 import { Project } from "./Project";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { TitleGradient } from "../../common/TitleGradient";
 
 AOS.init();
 
@@ -8,6 +9,16 @@ export const ProjectsView = () => {
   return (
     <div id="projects" className="w-full overflow-hidden">
       <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+        <div className="w-full flex justify-center items-center mb-20 md:mb-32 xl:mb-44 2xl:mb-60">
+          <TitleGradient
+            title={"MIS PROYECTOS"}
+            style={
+              "mr-1 font-black text-center text-4xl sm:text-5xl md:text-6xl xl:text-7xl"
+            }
+          />
+          <p className="md:text-xl 2xl:text-3xl">😊</p>
+        </div>
+
         <Project
           title={"NIK-AGENDA"}
           text={

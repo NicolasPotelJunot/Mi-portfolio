@@ -6,7 +6,7 @@
   background-position: center;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1050px) {
   .bg-contact {
     background-image: none;
     background: var(--gradient);

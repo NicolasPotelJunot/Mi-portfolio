@@ -1,33 +1,32 @@
-import { TitleGradient } from "../../common/TitleGradient";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import "./project.css";
 
 export const Project = ({ title, text, srcImage, srcGit, srcWebPage }) => {
   return (
-    <article className="grid lg:grid-cols-2 px-5 lg:px-32 2xl:px-52 mt-20 lg:mt-32">
+    <article className="grid lg:grid-cols-2 px-5 lg:px-32 2xl:px-52 mb-32 md:mb-44 xl:mb-56 2xl:mb-64">
       <div className="object-contain w-3/2 md:w-fit ">
         <img src={srcImage} className="w-full" />
       </div>
 
-      <div className="grid text-white ">
-        
-        <h3 className="text-primary font-extrabold text-4xl mt-3 lg:mt-0 ml-5 mr-2">
+      <div className="grid text-white">
+        <h3 className="title-projects flex items-center font-extrabold text-4xl ml-5 mr-2 mt-8 md:mb-8 xl:pt-10 lg:mb-0 lg:mt-0 2xl:text-6xl">
           {title}
         </h3>
 
-        <div className="bg-gradient place-self-center self-center rounded-lg lg:relative right-10 px-4 py-1">
-          <p className="mt-10 mb-5 md:text-xl lg:text-xl">{text}</p>
+        <div className="bg-card-project self-start rounded-lg lg:relative right-10 px-4 py-1">
+          <p className=" my-3 md:text-xl lg:text-xl">{text}</p>
 
           <div className="flex justify-start md:justify-end">
             {srcWebPage ? (
               <a
                 target={"_blank"}
                 href={srcWebPage}
-                className="h-8 w-8 lg:h-12 lg:w-12 flex items-center justify-center cursor-pointer m-1 border-2 rounded-full ancor"
+                className="h-12 w-12 md:h-9 md:w-9 flex items-center justify-center cursor-pointer my-2 lg:mt-1 border-2 rounded-full ancor links-projects"
               >
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="text-xl lg:text-3xl text-white "
+                  className="text-xl lg:text-xl text-white "
                 />
               </a>
             ) : (
@@ -35,7 +34,7 @@ export const Project = ({ title, text, srcImage, srcGit, srcWebPage }) => {
             )}
 
             <a
-              className="h-8 lg:h-12 cursor-pointer m-1 rounded-full border-2 ancor"
+              className="h-12 md:h-9 cursor-pointer my-2 lg:mt-1 ml-2 rounded-full border-2 ancor links-projects"
               href={srcGit}
               target="_blank"
             >

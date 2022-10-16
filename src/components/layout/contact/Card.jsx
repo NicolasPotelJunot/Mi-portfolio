@@ -4,12 +4,14 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import {  faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-
-export const Card = ({clases}) => {
+export const Card = ({ clases }) => {
   return (
     <div className={clases}>
+      <div className="mb-4 flex items-center">
+        <p>Mis datos:</p>
+      </div>
       <div className="mb-2 flex items-center">
         <FontAwesomeIcon
           icon={faEnvelope}

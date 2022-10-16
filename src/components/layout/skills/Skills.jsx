@@ -15,18 +15,18 @@ export const Skills = () => {
   };
 
   return (
-    <section className="pt-10 lg:pt-56 grid lg:grid-cols-2 w-full justify-center items-center">
+    <section className="grid w-full justify-center lg:grid-cols-2 mb-44">
       <div className="flex items-center justify-center lg:justify-end ">
         <TitleGradient
           title={"TECNOLOGIAS"}
           title2={"Y HERRAMIENTAS"}
           style={
-            "lg:pl-10 font-bold text-2xl lg:text-3xl md:text-5xl xl:text-7xl mb-10 lg:text-left text-center "
+            "font-bold text-2xl mb-10 text-center md:text-5xl lg:text-left lg:text-3xl xl:text-5xl 2xl:text-7xl"
           }
         />
       </div>
 
-      <div className="flex justify-center lg:justify-start lg:ml-32 ml-0">
+      <div className="flex justify-center lg:justify-start ml-0 lg:ml-20 2xl:ml-28">
         <ul className={`${isActive} menu`}>
           <>{!isActive ? <div className="spin absolute"></div> : <></>}</>
           <button

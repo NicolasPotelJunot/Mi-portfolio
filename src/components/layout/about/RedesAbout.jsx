@@ -9,7 +9,7 @@ export const RedesAbout = () => {
         href="https://github.com/NicolasPotelJunot"
         target="_blank"
       >
-        <img className="h-8" src="/githubLogo.svg" />
+        <img className="h-8" src="/githubLogoGradient.svg" />
       </a>
       <a
         className="p-3 flex items-center cursor-pointer"

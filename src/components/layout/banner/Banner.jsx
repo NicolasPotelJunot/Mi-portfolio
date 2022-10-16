@@ -2,14 +2,17 @@ import { TitleGradient } from "../../common/TitleGradient";
 
 export const Banner = () => {
   return (
-    <section className="pt-36 md:pt-0 flex flex-col md:flex-row justify-center items-center md:h-screen ">
-      <img src="/image-banner.png" className="h-72 xl:h-1/2 md:mr-5 cursor" />
-      <div className="mt-10 lg:mt-0 md:ml-5 cursor">
+    <section className="h-screen pt-36 mb-12  flex flex-col justify-center items-center md:pt-0 md:mb-0 lg:flex-row">
+      <img
+        src="/image-banner.png"
+        className="h-72 sm:h-96 xl:h-1/2 2xl:h-3/5 md:mr-5 cursor"
+      />
+      <div className="mt-10 lg:mt-0 md:ml-15">
         <h2 className="text-primary text-2xl md:text-6xl">Hola, me llamo</h2>
         <TitleGradient
           title={"NICOLAS"}
           title2={"POTEL JUNOT"}
-          style={"font-bold text-5xl lg:text-7xl xl:text-8xl "}
+          style={"font-bold text-5xl lg:text-7xl 2xl:text-8xl md:flex md:my-2 lg:block"}
         />
         <h3 className="text-primary text-2xl md:text-6xl">
           Desarrollador front-end
