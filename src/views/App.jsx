@@ -1,15 +1,15 @@
-import React, { useEffect } from "react";
-import { ButtonUp } from "../components/common/ButtonUp";
-import { About } from "../components/layout/about/About";
-import { Banner } from "../components/layout/banner/Banner";
-import { Contact } from "../components/layout/contact/Contact";
+import { useEffect } from "react";
+import { Loading } from "../components/common/loading/Loading";
 import { NavBarCommon, NavBarRedes } from "../components/layout/header";
-import { ProjectsView } from "../components/layout/projects/ProjectsView";
+import { ButtonUp } from "../components/common/ButtonUp";
+import { Banner } from "../components/layout/banner/Banner";
+import { About } from "../components/layout/about/About";
 import { Skills } from "../components/layout/skills/Skills";
+import { ProjectsView } from "../components/layout/projects/ProjectsView";
+import { Contact } from "../components/layout/contact/Contact";
 import "../styles/styleGlobal.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Loading } from "../components/common/loading/Loading";
 
 export const App = () => {
   useEffect(() => {
