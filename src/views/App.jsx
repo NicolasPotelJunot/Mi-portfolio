@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Loading } from "../components/common/loading/Loading";
+// import { Loading } from "../components/common/loading/Loading";
 import { NavBarCommon, NavBarRedes } from "../components/layout/header";
 import { ButtonUp } from "../components/common/ButtonUp";
 import { Banner } from "../components/layout/banner/Banner";
@@ -44,7 +44,7 @@ export const App = () => {
       <div data-aos="zoom-in" data-aos-duration="500">
         <Contact />
       </div>
-      <Loading />
+      {/* <Loading /> */}
     </main>
   );
 };
