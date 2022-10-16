@@ -18,7 +18,6 @@ export const App = () => {
 
   return (
     <main className="bg-light">
-      <Loading />
       <NavBarCommon />
       <NavBarRedes />
       <ButtonUp />
@@ -45,6 +44,7 @@ export const App = () => {
       <div data-aos="zoom-in" data-aos-duration="500">
         <Contact />
       </div>
+      <Loading />
     </main>
   );
 };
