@@ -32,7 +32,7 @@ export const About = () => {
           <a
             target={"_blank"}
             href="https://drive.google.com/file/d/1bGF597lyiVBlZcwXWujfbVGA1RmV5Rc1/view"
-            className="ancor text-center font-bold cursor-pointer px-3 py-2 bg-gradient w-28 lg:text-xl lg:w-36 text-white"
+            className="ancor text-center font-bold cursor-pointer px-3 py-2 bg-gradient w-28 lg:text-xl lg:w-36 text-white rounded-lg"
           >
             Mira mi CV
           </a>

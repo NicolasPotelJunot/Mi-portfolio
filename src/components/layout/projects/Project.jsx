@@ -5,7 +5,7 @@ import "./project.css";
 export const Project = ({ title, text, srcImage, srcGit, srcWebPage }) => {
   return (
     <article className="grid lg:grid-cols-2 px-5 lg:px-32 2xl:px-52 mb-32 md:mb-44 xl:mb-56 2xl:mb-64">
-      <div className="object-contain w-3/2 md:w-fit ">
+      <div className="object-contain w-3/2 bg-red-100 shadow-gray-400 shadow-md">
         <img src={srcImage} className="w-full" />
       </div>
 

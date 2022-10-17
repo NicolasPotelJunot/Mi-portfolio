@@ -24,7 +24,7 @@ export const ProjectsView = () => {
           text={
             "App para que puedas organizarte.  Lista de tareas, calculadora, cronómetro y podes ver el clima de tu ciudad!!"
           }
-          srcImage={"/projects/mockup.jpg"}
+          srcImage={"/projects/nik-agenda.jpg"}
           srcGit={"https://github.com/NicolasPotelJunot/TaskAndWeatherApp.git"}
           srcWebPage={"https://southchain.vercel.app/"}
         />
@@ -35,7 +35,7 @@ export const ProjectsView = () => {
           text={
             "App con el registro de todos los dinosaurios registrados en mi país. Dinosaurios y desarrollo web mis 2 grandes pasiones en un solo sitio web. ❤"
           }
-          srcImage={"/projects/mockup.jpg"}
+          srcImage={"/projects/dinosaurios-argentinos.jpg"}
           srcGit={"https://github.com/NicolasPotelJunot/TaskAndWeatherApp.git"}
           srcWebPage={"https://southchain.vercel.app/"}
         />
@@ -46,18 +46,18 @@ export const ProjectsView = () => {
           text={
             "Sitio web para un empresa de domótica en Córdoba, Argentina. Mi primer proyecto de desarrollo web con un cliente real"
           }
-          srcImage={"/projects/mockup.jpg"}
+          srcImage={"/projects/southchaing.jpg"}
           srcGit={"https://github.com/NicolasPotelJunot/SouthChain.git"}
           srcWebPage={"https://southchain.vercel.app/"}
         />
       </div>
       <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
         <Project
-          title={"PORTFOLIO"}
+          title={"MI PORTFOLIO"}
           text={
-            "Mi Landingpage 🤩 hecha principalmente con React - Tailwind - Material UI"
+            "Mi Landingpage 🤩 hecha principalmente con : React - Tailwind - Material UI"
           }
-          srcImage={"/projects/mockup.jpg"}
+          srcImage={"/projects/portfolio.jpg"}
           srcGit={"https://github.com/NicolasPotelJunot/Mi-portfolio.git"}
         />
       </div>

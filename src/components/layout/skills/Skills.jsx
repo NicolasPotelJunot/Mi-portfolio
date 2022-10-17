@@ -15,13 +15,13 @@ export const Skills = () => {
   };
 
   return (
-    <section className="grid w-full justify-center lg:grid-cols-2 mb-44">
+    <section className="grid w-full justify-center lg:grid-cols-2 mb-24 xl:mb-44">
       <div className="flex items-center justify-center lg:justify-end ">
         <TitleGradient
           title={"TECNOLOGIAS"}
           title2={"Y HERRAMIENTAS"}
           style={
-            "font-bold text-2xl mb-10 text-center md:text-5xl lg:text-left lg:text-3xl xl:text-5xl 2xl:text-7xl"
+            "font-bold text-3xl mb-10 text-center md:text-5xl lg:text-left lg:text-3xl xl:text-5xl 2xl:text-7xl"
           }
         />
       </div>
