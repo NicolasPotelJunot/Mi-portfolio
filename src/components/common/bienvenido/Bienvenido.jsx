@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./loading.css";
 
-export const Loading = () => {
+export const Bienvenido = () => {
   const [display, setDisplay] = useState();
 
   useEffect(() => {
@@ -14,7 +14,7 @@ export const Loading = () => {
     <div
       className={`${display} h-screen w-screen bg-loading z-50 fixed flex justify-center items-center overflow-hidden`}
     >
-      <img src="/logo-favicon-nicolas-potel-junot.svg" className="img-loading" />
+      {/* <img src="/logo-favicon-nicolas-potel-junot.svg" className="img-loading" /> */}
       <p className="absolute text-white text-2xl md:text-5xl font-black">
         BIENVENIDO
       </p>

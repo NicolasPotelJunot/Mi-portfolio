@@ -2,7 +2,7 @@ import { TitleGradient } from "../../common/TitleGradient";
 
 export const Banner = () => {
   return (
-    <section className="h-screen pt-36 mb-12  flex flex-col justify-center items-center md:pt-0 md:mb-0 lg:flex-row">
+    <section className="h-screen mb-12 flex flex-col justify-center items-center md:pt-0 md:mb-0 lg:flex-row">
       <img
         src="/image-banner.png"
         className="h-72 sm:h-96 xl:h-1/2 2xl:h-3/5 md:mr-5 cursor"
