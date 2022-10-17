@@ -2,7 +2,7 @@ import { Button, TextField } from "@mui/material";
 import { useState } from "react";
 import "./form.css";
 import { MsgSend } from "./MsgSend";
-import 'animate.css';
+import "animate.css";
 
 export const Form = ({ clases }) => {
   const [display, setDisplay] = useState();
@@ -55,7 +55,7 @@ export const Form = ({ clases }) => {
       </div>
 
       {/* aditional input formsubmit */}
-      <input type="hidden" name="_next" value="http://127.0.0.1:5173/" />
+      <input type="hidden" name="_next" value="https://nicolas-potel-junot.vercel.app/" />
       <input type="hidden" name="_captcha" value="false" />
     </form>
   );

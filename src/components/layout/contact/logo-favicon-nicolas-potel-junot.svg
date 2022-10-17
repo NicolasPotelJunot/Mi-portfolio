@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW X8 -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="420mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 42000 29700"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="453.115mm" height="212.371mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 45311 21237"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
@@ -10,7 +10,7 @@ viewBox="0 0 42000 29700"
     .fil0 {fill:url(#id0);fill-rule:nonzero}
    ]]>
   </style>
-  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="26786.7" y1="26391.2" x2="15289.4" y2="2721.47">
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="28968.1" y1="21802.9" x2="16425.2" y2="-1135.63">
    <stop offset="0" style="stop-opacity:1; stop-color:#A12BFF"/>
    <stop offset="0.419608" style="stop-opacity:1; stop-color:#6877F1"/>
    <stop offset="1" style="stop-opacity:1; stop-color:#2EC3E3"/>
@@ -18,6 +18,6 @@ viewBox="0 0 42000 29700"
  </defs>
  <g id="Capa_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <path class="fil0" d="M12456 4234c-7026,166 -11859,7744 -11687,15041 77,3254 2079,6207 5033,6137 3742,-88 5606,-3949 10023,-4053 5135,-121 8511,4229 13719,4107 7026,-166 11859,-7744 11687,-15041 -77,-3254 -2079,-6207 -5033,-6137 -4108,96 -4610,3835 -10344,3970 -5092,120 -8209,-4146 -13398,-4024z"/>
+  <path class="fil0" d="M13257 215c-7728,163 -13045,7589 -12855,14740 84,3189 2287,6083 5536,6014 4116,-86 6167,-3870 11025,-3972 5649,-118 9362,4145 15091,4025 7729,-162 13045,-7589 12856,-14740 -85,-3189 -2287,-6083 -5536,-6014 -4519,94 -5071,3758 -11379,3890 -5601,118 -9030,-4063 -14738,-3943z"/>
  </g>
 </svg>

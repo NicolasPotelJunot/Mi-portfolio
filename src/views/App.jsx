@@ -40,9 +40,7 @@ export const App = () => {
 
       <ProjectsView />
 
-      <div data-aos="zoom-in" data-aos-duration="500">
-        <Contact />
-      </div>
+      <Contact />
     </main>
   );
 };

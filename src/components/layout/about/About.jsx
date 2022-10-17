@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <section id="about" className="flex flex-col md:grid md:grid-cols-6 mb-32 lg:mb-28">
       <div className="md:hidden mx-auto flex items-center">
-        <img src="/isologo-nicolasPotelJunot.svg" className="h-5" />
+        <img src="/logo-favicon-nicolas-potel-junot.svg" className="h-5" />
         <TitleGradient
           title={"About"}
           style={"font-bold text-5xl lg:text-7xl xl:text-8xl "}
