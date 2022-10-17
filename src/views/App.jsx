@@ -23,9 +23,7 @@ export const App = () => {
       <NavBarRedes />
       <ButtonUp />
 
-      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
-        <Banner />
-      </div>
+      <Banner />
 
       <div data-aos="fade-right" data-aos-duration="3000" data-aos-delay="300">
         <About />

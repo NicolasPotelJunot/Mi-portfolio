@@ -12,7 +12,7 @@ export const Bienvenido = () => {
 
   return (
     <div
-      className={`${display} h-screen w-screen bg-loading z-50 fixed flex justify-center items-center overflow-hidden`}
+      className={`${display} h-full w-full bg-loading z-50 fixed flex justify-center items-center overflow-hidden`}
     >
       <img src="/logo-favicon-nicolas-potel-junot.svg" className="img-loading" />
       <p className="absolute text-white text-2xl md:text-5xl font-black">
