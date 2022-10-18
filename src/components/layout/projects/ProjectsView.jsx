@@ -42,7 +42,7 @@ export const ProjectsView = () => {
       </div>
       <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
         <Project
-          title={"SOUTHCHAING"}
+          title={"SOUTHCHAIN"}
           text={
             "Sitio web para un empresa de domótica en Córdoba, Argentina. Mi primer proyecto de desarrollo web con un cliente real"
           }
