@@ -3,7 +3,10 @@ import { RedesAbout } from "./RedesAbout";
 
 export const About = () => {
   return (
-    <section id="about" className="flex flex-col md:grid md:grid-cols-6 mb-32 lg:mb-28">
+    <section
+      id="about"
+      className="flex flex-col md:grid md:grid-cols-6 mb-32 lg:mb-28"
+    >
       <div className="md:hidden mx-auto flex items-center">
         <img src="/logo-favicon-nicolas-potel-junot.svg" className="h-5" />
         <TitleGradient
@@ -31,7 +34,7 @@ export const About = () => {
         <div className=" flex justify-end lg:justify-start mt-10 pr-10">
           <a
             target={"_blank"}
-            href="https://drive.google.com/file/d/1bGF597lyiVBlZcwXWujfbVGA1RmV5Rc1/view"
+            href="https://drive.google.com/file/d/16zctB_YUuzB7nS-HmxuQ_OjfSb5oE0WF/view?usp=sharing"
             className="ancor text-center font-bold cursor-pointer px-3 py-2 bg-gradient w-28 lg:text-xl lg:w-36 text-white rounded-lg"
           >
             Mira mi CV
