@@ -8,17 +8,17 @@ AOS.init();
 export const ProjectsView = () => {
   return (
     <div id="projects" className="w-full overflow-hidden pt-32 -mt-32">
-      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
-        <div className="w-full flex justify-center items-center mb-20 md:mb-32 xl:mb-44 2xl:mb-60">
-          <TitleGradient
-            title={"MIS PROYECTOS"}
-            style={
-              "mr-1 font-black text-center text-3xl sm:text-5xl md:text-6xl xl:text-7xl"
-            }
-          />
-          <p className="md:text-xl 2xl:text-3xl">😊</p>
-        </div>
+      <div className="w-full flex justify-center items-center mb-20 md:mb-32 xl:mb-44 2xl:mb-52">
+        <TitleGradient
+          title={"MIS PROYECTOS"}
+          style={
+            "mr-1 font-black text-center text-3xl sm:text-5xl md:text-6xl xl:text-7xl"
+          }
+        />
+        <p className="md:text-xl 2xl:text-3xl">😊</p>
+      </div>
 
+      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
         <Project
           title={"NIK-AGENDA"}
           text={
@@ -29,7 +29,7 @@ export const ProjectsView = () => {
           srcWebPage={"https://southchain.vercel.app/"}
         />
       </div>
-      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+      <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
         <Project
           title={"DINOSAURIOS ARGENTINOS"}
           text={
@@ -40,7 +40,7 @@ export const ProjectsView = () => {
           srcWebPage={"https://southchain.vercel.app/"}
         />
       </div>
-      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+      <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
         <Project
           title={"SOUTHCHAIN"}
           text={
@@ -51,7 +51,7 @@ export const ProjectsView = () => {
           srcWebPage={"https://southchain.vercel.app/"}
         />
       </div>
-      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+      <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
         <Project
           title={"MI PORTFOLIO"}
           text={

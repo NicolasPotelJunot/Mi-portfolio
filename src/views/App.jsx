@@ -25,14 +25,14 @@ export const App = () => {
 
       <Banner />
 
-      <div data-aos="fade-right" data-aos-duration="3000" data-aos-delay="300">
+      <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
         <About />
       </div>
       <div className="overflow-hidden w-full">
         <div
           data-aos="fade-left"
-          data-aos-duration="2000"
-          data-aos-delay="1000"
+          data-aos-duration="1000"
+          data-aos-delay="300"
         >
           <Skills />
         </div>
