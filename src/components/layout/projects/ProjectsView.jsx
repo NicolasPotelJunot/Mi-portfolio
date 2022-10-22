@@ -18,29 +18,7 @@ export const ProjectsView = () => {
         <p className="md:text-xl 2xl:text-3xl">😊</p>
       </div>
 
-      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
-        <Project
-          title={"NIK-AGENDA"}
-          text={
-            "App para que puedas organizarte.  Lista de tareas, calculadora, cronómetro y podes ver el clima de tu ciudad!!"
-          }
-          srcImage={"/projects/nik-agenda.jpg"}
-          srcGit={"https://github.com/NicolasPotelJunot/TaskAndWeatherApp.git"}
-          srcWebPage={"https://southchain.vercel.app/"}
-        />
-      </div>
-      <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
-        <Project
-          title={"DINOSAURIOS ARGENTINOS"}
-          text={
-            "App con el registro de todos los dinosaurios registrados en mi país. Dinosaurios y desarrollo web mis 2 grandes pasiones en un solo sitio web. ❤"
-          }
-          srcImage={"/projects/dinosaurios-argentinos.jpg"}
-          srcGit={"https://github.com/NicolasPotelJunot/TaskAndWeatherApp.git"}
-          srcWebPage={"https://southchain.vercel.app/"}
-        />
-      </div>
-      <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
+      <div data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
         <Project
           title={"SOUTHCHAIN"}
           text={
@@ -51,7 +29,29 @@ export const ProjectsView = () => {
           srcWebPage={"https://southchain.vercel.app/"}
         />
       </div>
-      <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
+      <div data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+        <Project
+          title={"DINOSAURIOS ARGENTINOS"}
+          text={
+            "App con el registro de todos los dinosaurios registrados en mi país. Dinosaurios y desarrollo web mis 2 grandes pasiones en un solo sitio web. ❤"
+          }
+          srcImage={"/projects/dinosaurios-argentinos.jpg"}
+          srcGit={"https://github.com/NicolasPotelJunot/TaskAndWeatherApp.git"}
+          srcWebPage={"https://southchain.vercel.app/"}
+        />
+      </div>
+      <div data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+        <Project
+          title={"NIK-AGENDA"}
+          text={
+            "App para que puedas organizarte.  Lista de tareas, calculadora, cronómetro y podes ver el clima de tu ciudad!!"
+          }
+          srcImage={"/projects/nik-agenda.jpg"}
+          srcGit={"https://github.com/NicolasPotelJunot/TaskAndWeatherApp.git"}
+          srcWebPage={"https://southchain.vercel.app/"}
+        />
+      </div>
+      <div data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
         <Project
           title={"MI PORTFOLIO"}
           text={

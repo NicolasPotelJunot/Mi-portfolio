@@ -14,9 +14,6 @@ export const Banner = () => {
           title2={"POTEL JUNOT"}
           style={"font-bold text-5xl lg:text-7xl 2xl:text-8xl md:flex md:my-2 lg:block"}
         />
-        <h3 className="text-primary text-2xl md:text-6xl">
-          Desarrollador front-end
-        </h3>
       </div>
     </section>
   );

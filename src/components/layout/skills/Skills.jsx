@@ -31,10 +31,10 @@ export const Skills = () => {
           <>{!isActive ? <div className="spin absolute"></div> : <></>}</>
           <button
             onClick={handleButtonSkills}
-            className="toggle bg-gradient rounded-full flex flex-col text-xl lg:text-4xl"
-          >
-            Skills
-            <p className="text-sm">click me</p>
+            className="toggle bg-gradient rounded-full flex flex-col"
+          >            
+            <p className="text-lg lg:text-3xl">Tecnologías</p>
+            <p className="text-sm pt-3">Dame click</p>
           </button>
 
           {/* contendor de tecnos */}

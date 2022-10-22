@@ -52,19 +52,19 @@ export const NavBarCommon = () => {
       </button>
 
       <button
-        className={`flex justify-center h-20 items-center bg-transparent z-30 md:hidden`}
+        className={`flex justify-center h-20 items-center bg-none z-30 md:hidden`}
         onClick={handleButton}
       >
         <img
           src="menuButton.svg"
-          className={`h-20 absolute md:flex md:items-center ${modal.openImage}`}
+          className={`h-20 absolute md:flex md:items-center bg-none ${modal.openImage}`}
         />
         <div
-          className={`${selector} hamburger hamburger--collapse z-20`}
+          className={`${selector} hamburger bg-none hamburger--collapse z-20`}
           type="button"
         >
-          <span className="hamburger-box">
-            <span className="hamburger-inner"></span>
+          <span className="hamburger-box bg-none">
+            <span className="hamburger-inner bg-none"></span>
           </span>
         </div>
       </button>
@@ -79,9 +79,9 @@ export const NavBarCommon = () => {
           smooth={true}
           offset={-150}
           duration={500}
-          className="w-full py-10 hover-1 cursor-pointer font-bold flex justify-center items-center text-white md:text-slate-500 text-3xl md:text-lg lg:text-2xl md:py-0 md:mx-1 lg:mx-10 md:w-28 lg:w-36 xl:w-44"
+          className="w-full py-10 hover-1 cursor-pointer font-bold flex justify-center items-center text-white md:text-slate-500 text-3xl md:text-lg lg:text-2xl md:py-0 md:w-32 lg:w-36 xl:w-48 2xl:w-56"
         >
-          About
+          Sobre mí
         </Link>
         <Link
           onClick={handleButton}
@@ -90,7 +90,7 @@ export const NavBarCommon = () => {
           smooth={true}
           offset={50}
           duration={500}
-          className="w-full py-10 hover-1 cursor-pointer font-bold flex justify-center items-center text-white md:text-slate-500 text-3xl md:text-lg lg:text-2xl md:py-0 md:mx-1 lg:mx-10 md:w-28 lg:w-36 xl:w-44"
+          className="w-full py-10 hover-1 cursor-pointer font-bold flex justify-center items-center text-white md:text-slate-500 text-3xl md:text-lg lg:text-2xl md:py-0 md:w-32 lg:w-36 xl:w-48 2xl:w-56"
         >
           Proyectos
         </Link>
@@ -101,7 +101,7 @@ export const NavBarCommon = () => {
           smooth={true}
           offset={-20}
           duration={500}
-          className="w-full py-10 hover-1 cursor-pointer font-bold flex justify-center items-center text-white md:text-slate-500 text-3xl md:text-lg lg:text-2xl md:py-0 md:mx-1 lg:ml-10 md:w-28 lg:w-36 xl:w-44"
+          className="w-full py-10 hover-1 cursor-pointer font-bold flex justify-center items-center text-white md:text-slate-500 text-3xl md:text-lg lg:text-2xl md:py-0 md:w-32 lg:w-36 xl:w-48 2xl:w-56"
         >
           Contacto
         </Link>

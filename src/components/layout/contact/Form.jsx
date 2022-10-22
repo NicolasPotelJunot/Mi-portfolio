@@ -41,6 +41,7 @@ export const Form = ({ clases }) => {
           label="Email"
           variant="standard"
           required
+          type="email"
         />
       </div>
       <div className="md:w-1/2 mt-5">
@@ -55,7 +56,11 @@ export const Form = ({ clases }) => {
       </div>
 
       {/* aditional input formsubmit */}
-      <input type="hidden" name="_next" value="https://nicolas-potel-junot.vercel.app/" />
+      <input
+        type="hidden"
+        name="_next"
+        value="https://nicolas-potel-junot.vercel.app/"
+      />
       <input type="hidden" name="_captcha" value="false" />
     </form>
   );
