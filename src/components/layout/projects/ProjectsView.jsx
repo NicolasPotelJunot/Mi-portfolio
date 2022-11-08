@@ -22,7 +22,7 @@ export const ProjectsView = () => {
         <Project
           title={"SOUTHCHAIN"}
           text={
-            "Sitio web para un empresa de domótica en Córdoba, Argentina. Mi primer proyecto de desarrollo web con un cliente real"
+            "Sitio web para un empresa de domótica en Córdoba, Argentina. Mi primer proyecto de desarrollo web con un cliente real. React, Redux, TailwindCSS y emotion son algunas de las tecnologías que utilicé."
           }
           srcImage={"/projects/southchaing.jpg"}
           srcGit={"https://github.com/NicolasPotelJunot/SouthChain.git"}
@@ -44,11 +44,11 @@ export const ProjectsView = () => {
         <Project
           title={"NIK-AGENDA"}
           text={
-            "App para que puedas organizarte.  Lista de tareas, calculadora, cronómetro y podes ver el clima de tu ciudad!!"
+            "LA MEJOR App para que puedas organizarte. Lista de tareas, calculadora, cronómetro y podes ver el clima de tu ciudad!! Para esto proyexto use Material UI y TailWindCSS, React, Redux, redux-persist y CSS vanilla. Espero que te guste y la puedas utilizar 😊"
           }
           srcImage={"/projects/nik-agenda.jpg"}
           srcGit={"https://github.com/NicolasPotelJunot/TaskAndWeatherApp.git"}
-          srcWebPage={"https://southchain.vercel.app/"}
+          srcWebPage={"https://nik-agenda.vercel.app/"}
         />
       </div>
       <div data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
