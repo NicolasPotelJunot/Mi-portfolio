@@ -20,6 +20,18 @@ export const ProjectsView = () => {
 
       <div data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
         <Project
+          title={"NIK-AGENDA"}
+          text={
+            "WebApp para que puedas organizarte. Lista de tareas, calculadora, cronómetro y podes ver el clima de tu ciudad!! Para esto proyexto use Material UI y TailWindCSS, React, Redux, redux-persist y CSS vanilla. Espero que te guste y la puedas utilizar 😊"
+          }
+          srcImage={"/projects/nik-agenda.jpg"}
+          srcGit={"https://github.com/NicolasPotelJunot/TaskAndWeatherApp.git"}
+          srcWebPage={"https://nik-agenda.vercel.app/"}
+        />
+      </div>
+
+      <div data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+        <Project
           title={"SOUTHCHAIN"}
           text={
             "Sitio web para un empresa de domótica en Córdoba, Argentina. Mi primer proyecto de desarrollo web con un cliente real. React, Redux, TailwindCSS y emotion son algunas de las tecnologías que utilicé."
@@ -29,6 +41,7 @@ export const ProjectsView = () => {
           srcWebPage={"https://southchain.vercel.app/"}
         />
       </div>
+
       <div data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
         <Project
           title={"DINOSAURIOS ARGENTINOS"}
@@ -40,17 +53,9 @@ export const ProjectsView = () => {
           srcWebPage={"https://southchain.vercel.app/"}
         />
       </div>
-      <div data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
-        <Project
-          title={"NIK-AGENDA"}
-          text={
-            "LA MEJOR App para que puedas organizarte. Lista de tareas, calculadora, cronómetro y podes ver el clima de tu ciudad!! Para esto proyexto use Material UI y TailWindCSS, React, Redux, redux-persist y CSS vanilla. Espero que te guste y la puedas utilizar 😊"
-          }
-          srcImage={"/projects/nik-agenda.jpg"}
-          srcGit={"https://github.com/NicolasPotelJunot/TaskAndWeatherApp.git"}
-          srcWebPage={"https://nik-agenda.vercel.app/"}
-        />
-      </div>
+
+      
+
       <div data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
         <Project
           title={"MI PORTFOLIO"}
@@ -61,6 +66,7 @@ export const ProjectsView = () => {
           srcGit={"https://github.com/NicolasPotelJunot/Mi-portfolio.git"}
         />
       </div>
+
     </div>
   );
 };
