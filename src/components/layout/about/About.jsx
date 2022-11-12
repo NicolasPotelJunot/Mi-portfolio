@@ -11,25 +11,28 @@ export const About = () => {
         <img src="/logo-favicon-nicolas-potel-junot.svg" className="h-5" />
         <TitleGradient
           title={"SOBRE MI"}
-          style={"font-bold text-5xl lg:text-7xl xl:text-8xl "}
+          style={"mx-3 font-bold text-5xl lg:text-7xl xl:text-8xl "}
         />
       </div>
 
-      <div className="px-5 my-10 lg:pt-20 lg:my-0 col-span-3 col-start-2 ">
+      <div className="px-3 my-10 lg:pt-20 lg:my-0 col-span-3 col-start-2 ">
         <p className="text-primary mb-5 md:text-xl">
-          Desarrollador web front-end autodidacta y graduado en diseño gráfico
+          Desarrollador front-end autodidacta y graduado en diseño gráfico
           publicitario.
         </p>
 
         <p className="text-primary mb-5 md:text-xl">
           Soy una persona comprometida y proactiva en todo lo que realizo, tanto
-          en lo personal como profesional. Orientado siempre a buenas experiencias de usuario y enfocado en "pixel perfect".
+          en lo personal como profesional. Orientado siempre a buenas
+          experiencias de usuario y enfocado en "pixel perfect".
         </p>
 
-        <p className="text-primary md:text-xl">
-          Mi creatividad radica en la tecnología, aprendiendo día a día
-          nuevas herramientas y experimentar nuevos desafíos. Amo lo que hago 💗
+        <p className="text-primary mb-5 md:text-xl">
+          Mi creatividad radica en la tecnología, aprendiendo día a día nuevas
+          herramientas y experimentar nuevos desafíos.
         </p>
+
+        <p className="text-primary md:text-xl">Me apasiona lo que hago 💗</p>
 
         <div className=" flex justify-end lg:justify-start mt-10 pr-10">
           <a

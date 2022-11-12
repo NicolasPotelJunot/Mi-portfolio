@@ -8,14 +8,13 @@ AOS.init();
 export const ProjectsView = () => {
   return (
     <div id="projects" className="w-full overflow-hidden pt-32 -mt-32">
-      <div className="w-full flex justify-center items-center mb-20 md:mb-32 xl:mb-44 2xl:mb-52">
+      <div className="w-full flex justify-center items-center mb-10 md:mb-32 xl:mb-44 2xl:mb-52">
         <TitleGradient
           title={"MIS PROYECTOS"}
           style={
-            "mr-1 font-black text-center text-3xl sm:text-5xl md:text-6xl xl:text-7xl"
+            "mr-1 font-black text-center text-4xl sm:text-5xl md:text-6xl xl:text-7xl"
           }
         />
-        <p className="md:text-xl 2xl:text-3xl">😊</p>
       </div>
 
       <div data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">

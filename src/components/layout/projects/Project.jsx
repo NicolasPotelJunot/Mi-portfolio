@@ -4,17 +4,17 @@ import "./project.css";
 
 export const Project = ({ title, text, srcImage, srcGit, srcWebPage }) => {
   return (
-    <article className="grid lg:grid-cols-2 px-5 lg:px-32 2xl:px-52 mb-32 2xl:mb-44">
+    <article className="grid lg:grid-cols-2 px-3 lg:px-32 2xl:px-52 mb-20 md:mb-32 2xl:mb-44">
       <div className="object-contain w-3/2 shadow-gray-400 shadow-md">
         <img src={srcImage} className="w-full" />
       </div>
 
       <div className="grid text-white">
-        <h3 className="title-projects flex items-center font-extrabold text-4xl ml-5 mr-2 mt-8 md:mb-8 xl:pt-10 lg:mb-0 lg:mt-0 2xl:text-6xl">
+        <h3 className="title-projects flex items-center font-extrabold text-3xl md:ml-5 md:mr-2 mt-8 md:mb-8 xl:pt-10 lg:mb-0 lg:mt-0 2xl:text-6xl">
           {title}
         </h3>
 
-        <div className="bg-card-project self-start rounded-lg lg:relative right-10 px-4 py-1">
+        <div className="bg-card-project self-start rounded-lg lg:relative right-10 md:px-4 py-1">
           <p className=" my-3 md:text-xl lg:text-xl">{text}</p>
 
           <div className="flex justify-start md:justify-end">

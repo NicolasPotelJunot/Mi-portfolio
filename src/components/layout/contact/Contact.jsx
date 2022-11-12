@@ -5,14 +5,11 @@ import { Card } from "./Card";
 
 export const Contact = () => {
   return (
-    <section
-      id="contact"
-      className=" xl:w-3/4 mx-auto pt-10 lg:px-16 xl:pb-24"
-    >
+    <section id="contact" className="mx-auto pt-10 lg:px-16 xl:pb-24 xl:w-3/4">
       <TitleGradient
         title={"Contactame"}
         style={
-          "block font-semibold text-4xl md:text-6xl lg:text-5xl xl:text-8xl text-center mx-auto mb-12"
+          "block font-semibold text-5xl md:text-6xl lg:text-5xl xl:text-8xl text-center mx-auto mb-12"
         }
       />
 
