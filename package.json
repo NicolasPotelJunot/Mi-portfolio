@@ -36,5 +36,18 @@
     "postcss": "^8.4.17",
     "tailwindcss": "^3.1.8",
     "vite": "^3.1.0"
-  }
+  },
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasPotelJunot/Mi-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasPotelJunot/Mi-portfolio/issues"
+  },
+  "homepage": "https://github.com/NicolasPotelJunot/Mi-portfolio#readme",
+  "description": ""
 }

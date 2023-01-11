@@ -20,7 +20,7 @@ export const Form = ({ clases }) => {
       onSubmit={handleDisplay}
     >
       <MsgSend display={display} />
-      <h3 className="text-primary ">Enviame un mail 😊</h3>
+      <h3 className="text-primary text-xl font-semibold text-center">Enviame un mail 😊</h3>
       <div className=" mt-5">
         <TextField
           name="name"

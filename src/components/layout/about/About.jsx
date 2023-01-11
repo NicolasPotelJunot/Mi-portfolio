@@ -37,8 +37,10 @@ export const About = () => {
         <div className=" flex justify-end lg:justify-start mt-10 pr-10">
           <a
             className="ancor text-center font-bold cursor-pointer px-3 py-2 bg-gradient w-28 lg:text-xl lg:w-36 text-white rounded-lg"
-            href="cv-NicolasPotelJunot.pdf"
-            download="cv Nicolas Potel Junot"
+            href="https://drive.google.com/drive/folders/1j9tD_xZ50RVBYM8bN1G4Q9VZSrvK4dAZ?usp=sharing"
+            // download="cv Nicolas Potel Junot"
+            target="_blank"
+
           >
             Mira mi CV
           </a>

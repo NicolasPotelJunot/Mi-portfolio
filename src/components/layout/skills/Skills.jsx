@@ -33,7 +33,7 @@ export const Skills = () => {
             onClick={handleButtonSkills}
             className="toggle bg-gradient rounded-full flex flex-col"
           >            
-            <p className="text-lg lg:text-3xl">Tecnologías</p>
+            <p className="text-lg lg:text-2xl">Mostrar skills</p>
             <p className="text-sm pt-3">Dame click</p>
           </button>
 
