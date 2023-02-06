@@ -48,8 +48,8 @@ export const ProjectsView = () => {
             "App con el registro de todos los dinosaurios registrados en mi país. Dinosaurios y desarrollo web mis 2 grandes pasiones en un solo sitio web. ❤"
           }
           srcImage={"/projects/dinosaurios-argentinos.jpg"}
-          srcGit={"https://github.com/NicolasPotelJunot/TaskAndWeatherApp.git"}
-          srcWebPage={"https://southchain.vercel.app/"}
+          srcGit={"https://github.com/NicolasPotelJunot/DinosauriosApp.git"}
+          srcWebPage={"https://dinosaurios-argentinos.vercel.app/"}
         />
       </div>
 
