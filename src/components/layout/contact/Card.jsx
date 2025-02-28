@@ -22,9 +22,8 @@ export const Card = ({ clases }) => {
 
       <div className="flex justify-between">
         <div className="flex">
-          <p className="pr-2">3512185215</p>
           <a
-            className="cursor-pointer flex justify-center items-center"
+            className="mr-2 cursor-pointer flex justify-center items-center"
             href="https://api.whatsapp.com/send?phone=3512185215"
             target="_blank"
           >
@@ -33,9 +32,6 @@ export const Card = ({ clases }) => {
               className="text-2xl text-white ancor"
             />
           </a>
-        </div>
-
-        <div className="flex">
           <a
             className="mr-2 flex items-center cursor-pointer w-8 justify-center"
             href="https://github.com/NicolasPotelJunot"

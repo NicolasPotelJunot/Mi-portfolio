@@ -40,7 +40,6 @@ export const About = () => {
             href="https://drive.google.com/drive/folders/1j9tD_xZ50RVBYM8bN1G4Q9VZSrvK4dAZ?usp=sharing"
             // download="cv Nicolas Potel Junot"
             target="_blank"
-
           >
             Mira mi CV
           </a>
